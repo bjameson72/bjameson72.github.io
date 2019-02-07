@@ -1,97 +1,89 @@
 /* Header */
 header {
-    color: #FFFF;
-    height: 4rem;
-    padding: 0px 25px;
-    line-height: 4rem;
-    position: absolute;
-    left: 0;
-    right: 0;    
-    display: flex;
-    justify-content: space-between;
+  color: #ffff;
+  height: 4rem;
+  padding: 0px 25px;
+  line-height: 4rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav {
-    height: 100%;
-    vertical-align: top;
-    line-height: 4rem;
-    float: right;
-
+  height: 100%;
+  vertical-align: top;
+  line-height: 4rem;
+  float: right;
 }
 
 nav ul {
-    display: flex;
-    list-style: none;
-    height: 100%;
+  display: flex;
+  list-style: none;
+  height: 100%;
 }
 
 nav ul li {
-    display: flex;
-    position: relative;
-    height: 100%;
+  display: flex;
+  position: relative;
+  height: 100%;
 }
 
 nav ul li a {
-    color: #FFFF;
-    text-decoration: none;
-    padding: 0px 10px;
+  color: #ffff;
+  text-decoration: none;
+  padding: 0px 10px;
 }
 
 nav ul li:hover {
-    background-color: rgba(51, 25, 60, 0.5);
-    
+  background-color: rgba(51, 25, 60, 0.5);
 }
 
 footer {
-    color: #FFFF;
-    display: flex;
-    position: absolute;
-    justify-content: flex-end;
-    right: 5px;
-    left: 0;
-    bottom: 0;
-    height: 2rem;
+  color: #ffff;
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  right: 5px;
+  left: 0;
+  bottom: 0;
+  height: 2rem;
 }
 
 footer a {
-    color: #FFFF;
-
+  color: #ffff;
 }
 
 .icon {
-    color: white;
-    position: absolute;
-    
+  color: white;
+  position: absolute;
 }
 
-iframe {
-    width: 100%;
-    align-items: center;
-    margin: 5px;
-    
-}
-
-.header-relative {
-    position: relative;
-    background-image:  linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?cs=srgb&dl=dawn-dusk-hd-wallpaper-36717.jpg&fm=jpg); 
-    background-size: cover;
-    background-repeat: none;
-    background-position: top;
-}
+/* .header-relative { */
+/* position: relative; */
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), */
+/* url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?cs=srgb&dl=dawn-dusk-hd-wallpaper-36717.jpg&fm=jpg); */
+/* background-size: cover; */
+/* background-repeat: none; */
+/* background-position: top; */
+/* } */
 
 .project {
-    background: rgba(0,0,0,0.2);
-    position: absolute;
-    display: flex;
-    color: white;
-    align-content: center;
-    transform: translateY(50vh);
-    justify-content: center;
-    width: 50%;
-    left: 25%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  color: white;
+  align-content: center;
+  justify-content: center;
+  width: 50%;
+  margin: 10px;
+  max-width: 440px;
+}
+
+.project h3 {
+  padding: 10px 20px;
 }
 
 section div h3 a {
-    color: white;
+  color: white;
 }
-
